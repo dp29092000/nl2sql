@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+groq
+python-dotenv
+faiss-cpu
+fastembed
+numpy
+requests
+pydantic
