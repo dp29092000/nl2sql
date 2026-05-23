@@ -3,4 +3,3 @@ venv/
 __pycache__/
 *.pyc
 database_full/
-train_spider.json
