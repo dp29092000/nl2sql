@@ -2,8 +2,6 @@
 
 A production-style application that converts plain English questions into SQL queries and executes them against real databases : no SQL knowledge required.
 
-**Live Demo:** [Link here]
-
 ---
 
 ## Problem Statement
