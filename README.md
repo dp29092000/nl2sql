@@ -102,7 +102,7 @@ streamlit run app.py
 - **Out-of-domain detection** — the system attempts SQL generation even for unrelated questions. A classifier to detect invalid queries would improve robustness.
 - **Multi-turn conversations** — currently stateless, each question is independent. Conversation history could enable follow-up questions.
 - **Schema retrieval accuracy** — FAISS retrieval may fail for ambiguous questions. Re-ranking or hybrid search could improve this.
-- **Deployment** — currently runs locally. Future work includes deploying FastAPI on Render and Streamlit on Streamlit Cloud.
+- **Deployment** — Currently runs locally; cloud deployment pending due to large dataset size (838MB SQLite files). Full source code available on GitHub.
 
 ---
 

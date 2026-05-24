@@ -20,6 +20,9 @@ class QueryRequest(BaseModel):
 @app.post("/query")
 def query(request: QueryRequest):
     db_id,schema = retriever.retrieve_schema(request.question)
+    print(f"db_id: {db_id}")
+    print(f"file path: database/{db_id}/{db_id}.sqlite")
+    print(f"schema: {schema}") 
     prompt = build_prompt(request.question,schema)
     sql = generate_sql(prompt)
     print(sql)
