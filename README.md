@@ -106,5 +106,4 @@ streamlit run app.py
 
 ## Author
 
-Prasanna D | B.Tech, IIT Gandhinagar (2022) |\
-Incoming MS Applied Machine Learning, University of Maryland College Park (Fall 2026)
+Prasanna D | B.Tech, IIT Gandhinagar (2022) |
